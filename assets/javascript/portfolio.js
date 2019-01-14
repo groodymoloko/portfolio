@@ -35,10 +35,4 @@ $(document).ready(function(){
         window.open('mailto:vanpatterson@gmail.com');
     });
     
-    // $("#resumeButton").click(function() {
-        
-    // });
-
-
-
 });
