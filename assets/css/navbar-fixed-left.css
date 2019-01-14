@@ -1,0 +1,32 @@
+.navbar.fixed-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    bottom: 0;
+    width: 140px;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    flex-grow: 0;
+    flex-direction: column;
+    right: auto;
+}
+
+.navbar-nav {
+    flex-direction: column;
+    width:100%;
+}
+
+.navbar-collapse {
+    flex-direction:column;
+    width:100%;
+}
+
+@media (min-width:768px) {
+    .navbar-collapse .navbar-nav {
+        flex-direction:column;width:100%;
+    }
+   
+   
+}

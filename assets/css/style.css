@@ -1,0 +1,107 @@
+html { 
+  height: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: odachi;
+  font-size: 36px;
+  color: white;
+  box-sizing: border-box;
+  line-height: 85%;
+}
+
+.cd-fixed-bg {  
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.cd-fixed-bg.cd-fixed-bg--1 {
+  background-image: url(../images/saguaro.jpg);
+}
+
+.cd-fixed-bg.cd-fixed-bg--2 {
+  background-image: url(../images/buffalopark.jpg);
+}
+
+.cd-fixed-bg.cd-fixed-bg--3 {
+  background-image: url(../images/paria.jpg);
+}
+
+.cd-fixed-bg.cd-fixed-bg--4 {
+  background-image: url(../images/wisconsin.jpg);
+}
+
+.cd-fixed-bg.cd-fixed-bg--5 {
+  background-image: url(../images/van.jpg);
+}
+
+.cd-scrolling-bg {
+  min-height: 100%;
+  background-color: black;
+  background-image: url(../images/buffalopark.jpg);
+}
+
+#nameCol {
+  display: flex;
+  align-items: center;
+  font-size: 8vw;
+  animation-timing-function: ease-in;
+  line-height: 85%;
+}
+
+#nameCol:hover {
+  color: black;
+}
+
+img {
+  height: 16vh;
+  width: 16vw;
+  min-height: 8vh;
+  min-width: 8vw;
+}
+
+img:hover {
+  color: gray;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.contactIcon {
+  /* margin: 20px; */
+}
+
+@font-face {
+    font-family: odachi;
+    src: url(../fonts/odachi/odachi.otf)
+}
+
+@media screen and (min-width: 784px) {
+  #nameCol {
+    font-size: 80px;
+  }
+  img {
+    height: 125px;
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  #nameCol {
+    margin-left: 1%;
+  }
+
