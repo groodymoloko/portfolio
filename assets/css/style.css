@@ -81,9 +81,38 @@ img:hover {
   height: auto;
 }
 
-.contactIcon {
-  /* margin: 20px; */
+.webdevImages {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
 }
+
+#webdevImage1 {
+  background-image: url("../images/dragon.jpg");
+}
+
+#webdevImage2 {
+  background-image: url("../images/hal.jpg");
+}
+
+#webdevImage3 {
+  background-image: url("../images/cactusflower.gif");
+}
+
+#webdevImage4 {
+  background-image: url("../images/haboob.jpg");
+}
+
+#webdevImage5 {
+  background-image: url("../images/boba.jpg");
+}
+
 
 @font-face {
     font-family: odachi;
