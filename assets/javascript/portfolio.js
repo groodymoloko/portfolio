@@ -35,10 +35,9 @@ $(document).ready(function(){
         window.open('mailto:vanpatterson@gmail.com');
     });
     
-    $("#resumeButton").click(function() {
-        resumePdf = VanPattersonResume2.pdf
-        window.open(resumePdf);
-    });
+    // $("#resumeButton").click(function() {
+        
+    // });
 
 
 
