@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/imagehover.css">
     <link rel="stylesheet" href="assets/css/navbar-fixed-left.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/nanogallery2@2.3.0/dist/css/nanogallery2.min.css" >
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/nanogallery2@2.3.0/dist/jquery.nanogallery2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </head>
@@ -23,13 +27,13 @@
                 <div class="row">
                     <figure class="imghvr-flip-vert quailButton">
                         <img src="assets/images/quail.png" alt="quail" class="responsive">
-                        <figcaption>Photog & Art</figcaption>
+                        <figcaption>Art & Photog</figcaption>
                     </figure>
                 </div>
                 <div class="row">
                     <figure class="imghvr-zoom-out-left scorpionButton">
                         <img src="assets/images/scorpion.png" alt="scorpion" class="responsive">
-                        <figcaption>Web Dev</figcaption>
+                        <figcaption>Web Dev Portfolio</figcaption>
                     </figure>
                 </div>
                 <div class="row">
@@ -59,51 +63,14 @@
             <div class="col-4">
                 <div class="row">
                     <figure class="imghvr-hinge-down saguaroButton">
-                        <img src="assets/images/saguaro.png" alt="saguaro" class="responsive">
-                        <figcaption>Home</figcaption>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure class="imghvr-zoom-out-left scorpionButton">
-                        <img src="assets/images/scorpion.png" alt="scorpion" class="responsive">
-                        <figcaption>Web Dev</figcaption>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure class="imghvr-blur coyoteButton">
-                        <img src="assets/images/coyote.png" alt="coyote" class="responsive">
-                        <figcaption>God of Rain</figcaption>
-                    </figure>
-                </div>
-                <div class="row">
-                    <figure class="imghvr-zoom-out-down snakeButton">
-                        <img src="assets/images/snakewhite.png" alt="rattlesnake" class="responsive">
-                        <figcaption>Contact</figcaption>
-                    </figure>
-                </div>
-            </div>
-            <div class="col-4">
-            
-            </div>
-            <div class="col-4">
-               
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid cd-fixed-bg cd-fixed-bg--3" id="webdevPage">
-        <div class="row container-fluid">
-            <div class="col-4">
-                <div class="row">
-                    <figure class="imghvr-hinge-down saguaroButton">
                         <img src="assets/images/saguarowhite.png" alt="saguaro" class="responsive">
                         <figcaption>Home</figcaption>
                     </figure>
                 </div>
                 <div class="row">
-                    <figure class="imghvr-flip-vert quailButton">
-                        <img src="assets/images/quailwhite.png" alt="quail" class="responsive">
-                        <figcaption>Photog & Art</figcaption>
+                    <figure class="imghvr-zoom-out-left scorpionButton">
+                        <img src="assets/images/scorpionwhite.png" alt="scorpion" class="responsive">
+                        <figcaption>Web Dev</figcaption>
                     </figure>
                 </div>
                 <div class="row">
@@ -119,32 +86,71 @@
                     </figure>
                 </div>
             </div>
+
             <div class="col-8">
-                <a href="https://groodymoloko.github.io/gameofthrones">
+                <div class="row">
+                    <div id="nanogallery2">NanoGallery</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid cd-fixed-bg cd-fixed-bg--3" id="webdevPage">
+        <div class="row container-fluid">
+            <div class="col-4">
+                <div class="row">
+                    <figure class="imghvr-hinge-down saguaroButton">
+                        <img src="assets/images/saguaro.png" alt="saguaro" class="responsive">
+                        <figcaption>Home</figcaption>
+                    </figure>
+                </div>
+                <div class="row">
+                    <figure class="imghvr-flip-vert quailButton">
+                        <img src="assets/images/quail.png" alt="quail" class="responsive">
+                        <figcaption>Photog & Art</figcaption>
+                    </figure>
+                </div>
+                <div class="row">
+                    <figure class="imghvr-blur coyoteButton">
+                        <img src="assets/images/coyote.png" alt="coyote" class="responsive">
+                        <figcaption>God of Rain</figcaption>
+                    </figure>
+                </div>
+                <div class="row">
+                    <figure class="imghvr-zoom-out-down snakeButton">
+                        <img src="assets/images/snakewhite.png" alt="rattlesnake" class="responsive">
+                        <figcaption>Contact</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-8">
+                <a href="https://groodymoloko.github.io/gameofthrones" target="_blank">
                     <div class="webdevImages" id="webdevImage1">
                         <h4>Game of Thrones</h4>
                     </div>
                 </a>
         
-                <a href="https://groodymoloko.github.io/kubrickhangman">
+                <a href="https://groodymoloko.github.io/kubrickhangman" target="_blank">
                     <div class="webdevImages" id="webdevImage2">
                         <h4>Kubrick Hangman</h4>
                     </div>
                 </a>
         
-                <a href="https://groodymoloko.github.io/plantgiphy">
+                <a href="https://groodymoloko.github.io/plantgiphy" target="_blank">
                     <div class="webdevImages" id="webdevImage3">
                         <h4>Plants!</h4>
                 </div>
                 </a>
         
-                <a href="https://groodymoloko.github.io/aztrivia">
+                <a href="https://groodymoloko.github.io/aztrivia" target="_blank">
                     <div class="webdevImages" id="webdevImage4">
                         <h4>AZ Trivia</h4>
                     </div>
                 </a>
 
-                <a href="https://groodymoloko.github.io/starwars">
+                <a href="https://groodymoloko.github.io/starwars" target="_blank">
                     <div class="webdevImages" id="webdevImage5">
                         <h4>Star Wars RPG</h4>
                     </div>
@@ -182,12 +188,16 @@
                     </figure>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-8">
+                <div class="row">
+                    <p>God of Rain is a DAFFY! (Desert Adapted Food Forest, Yeah!) in Tucson, Arizona.  I founded this project in November 2018 to showcase how humans can live in harmony with fragile  desert ecosystems.</p>
+                    <p>Please visit GodofRain.com for more information.</p>
+                </div>
+                <div class="row">
+                    <a href="http://godofrain.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">God of Rain</a>
+                </div>
+            </div>
             
-            </div>
-            <div class="col-4">
-               
-            </div>
         </div>
     </div>
 
@@ -229,7 +239,7 @@
                     <a href="https://github.com/groodymoloko" target="_blank"><img src="assets/images/github.png" alt="GitHub" class="responsive"></a>
                 </div>
                 <div class="row contactIcon" id="emailButton">
-                    <a href=""><img src="assets/images/email2.png" alt="Email" class="responsive"></a>
+                    <a href="mailto:vanpatterson@gmail.com"><img src="assets/images/email2.png" alt="Email" class="responsive"></a>
                 </div>
                 <div class="row contactIcon">
                     <a href="https://www.linkedin.com/in/vanpatterson" target="_blank"><img src="assets/images/linkedin2.png" alt="linkedIn" class="responsive"></a>
@@ -241,7 +251,7 @@
         </div>
     </div>
 
-    <script>src="https://cdnjs.com/libraries/pdf.js"</script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <script src="assets/javascript/portfolio.js"></script>
 
 </body>

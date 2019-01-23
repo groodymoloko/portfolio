@@ -32,15 +32,15 @@ body {
 }
 
 .cd-fixed-bg.cd-fixed-bg--2 {
-  background-image: url(../images/buffalopark.jpg);
-}
-
-.cd-fixed-bg.cd-fixed-bg--3 {
   background-image: url(../images/paria.jpg);
 }
 
+.cd-fixed-bg.cd-fixed-bg--3 {
+  background-image: url(../images/buffalopark.jpg);
+}
+
 .cd-fixed-bg.cd-fixed-bg--4 {
-  background-image: url(../images/wisconsin.jpg);
+  background-image: url(../images/godofrain1.jpg);
 }
 
 .cd-fixed-bg.cd-fixed-bg--5 {
@@ -61,19 +61,17 @@ body {
   line-height: 85%;
 }
 
-#nameCol:hover {
-  color: black;
-}
-
 img {
   height: 16vh;
   width: 16vw;
   min-height: 8vh;
   min-width: 8vw;
+  border-radius: 10px;
 }
 
-img:hover {
-  color: gray;
+.artHeader {
+  color: black;
+  padding: 10px;
 }
 
 .responsive {
@@ -93,26 +91,29 @@ img:hover {
   text-align: center;
 }
 
+.nGY2GThumbnailImage, .nGY2GThumbnail {
+  border-radius: 10px;
+}
+
+#nanogallery2 {
+  width: 100%;
+}
+
 #webdevImage1 {
   background-image: url("../images/dragon.jpg");
 }
-
 #webdevImage2 {
   background-image: url("../images/hal.jpg");
 }
-
 #webdevImage3 {
   background-image: url("../images/cactusflower.gif");
 }
-
 #webdevImage4 {
   background-image: url("../images/haboob.jpg");
 }
-
 #webdevImage5 {
   background-image: url("../images/boba.jpg");
 }
-
 
 @font-face {
     font-family: odachi;
@@ -133,4 +134,4 @@ img:hover {
   #nameCol {
     margin-left: 1%;
   }
-
+}
