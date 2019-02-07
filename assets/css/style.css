@@ -15,6 +15,11 @@ body {
   line-height: 85%;
 }
 
+.artHeader {
+  color: black;
+  padding: 10px;
+}
+
 .cd-fixed-bg {  
   width: 100%;
   min-height: 100vh;
@@ -53,12 +58,12 @@ body {
   background-image: url(../images/buffalopark.jpg);
 }
 
-#nameCol {
-  display: flex;
-  align-items: center;
-  font-size: 8vw;
-  animation-timing-function: ease-in;
-  line-height: 85%;
+h1 {
+  background-color: black;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 img {
@@ -69,9 +74,20 @@ img {
   border-radius: 10px;
 }
 
-.artHeader {
-  color: black;
-  padding: 10px;
+#nameCol {
+  display: flex;
+  align-items: center;
+  font-size: 8vw;
+  animation-timing-function: ease-in;
+  line-height: 85%;
+}
+
+#nanogallery2 {
+  width: 100%;
+}
+
+.nGY2GThumbnailImage, .nGY2GThumbnail {
+  border-radius: 10px;
 }
 
 .responsive {
@@ -91,14 +107,6 @@ img {
   text-align: center;
 }
 
-.nGY2GThumbnailImage, .nGY2GThumbnail {
-  border-radius: 10px;
-}
-
-#nanogallery2 {
-  width: 100%;
-}
-
 #webdevImage1 {
   background-image: url("../images/dragon.jpg");
 }
@@ -113,6 +121,9 @@ img {
 }
 #webdevImage5 {
   background-image: url("../images/boba.jpg");
+}
+#webdevImage6 {
+  background-image: url("../images/bamazon.jpg");
 }
 
 @font-face {

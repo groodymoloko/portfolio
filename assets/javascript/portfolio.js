@@ -40,8 +40,8 @@ $(document).ready(function(){
         thumbnailWidth:   'auto',
         itemsBaseURL:     'assets/images/',
         thumbnailHoverEffect2: 'image_scale_1.00_1.20',
-        thumbnailL1Label: { "display": true, "hideIcons": true },
-        thumbnailLabel: { "display": false },
+        thumbnailL1Label: { 'display': true },
+        thumbnailLabel: { 'display': false },
         thumbnailBorderHorizontal: 0,
         thumbnailBorderVertical: 0,
         thumbnailGutterWidth: 20,
@@ -51,6 +51,7 @@ $(document).ready(function(){
         galleryMaxRows: 3,
         galleryPaginationMode: 'numbers',
         touchAutoOpenDelay: 0,
+        thumbnailToolbarAlbum : { topRight: ''},
 
         
         // <!-- ### gallery content ### -->
@@ -69,9 +70,21 @@ $(document).ready(function(){
             { src: 'art_zen.jpg', srct: 'art_zen.jpg', title: 'Zen', albumID: 1  },
             { src: 'art_zodiak.jpg', srct: 'art_zodiak.jpg', title: 'Zodiak', albumID: 1  },
 
-            { src: 'art_thethinker.jpg', srct: 'art_thethinker.jpg', title: 'Photography', ID: 2, kind: 'album' },
-            { src: 'art_ants1.jpg', srct: 'art_ants1.jpg', title: 'Intruder', albumID: 2 },
-            { src: 'art_bee1.jpg', srct: 'art_bee1.jpg', title: 'B', albumID: 2  }
+            { src: 'photo-dog.jpg', srct: 'photo-dog.jpg', title: 'Photography', ID: 2, kind: 'album' },
+            { src: 'saguaro.jpg', srct: 'saguaro.jpg', title: 'The Sentinel', albumID: 2 },
+            { src: 'paria.jpg', srct: 'paria.jpg', title: 'Paria Canyon, AZ', albumID: 2 },
+            { src: 'photo-waterfall.jpg', srct: 'photo-waterfall.jpg', title: 'Havasupai, AZ', albumID: 2 },
+            { src: 'photo-barrel.jpg', srct: 'photo-barrel.jpg', title: 'Barrel', albumID: 2 },
+            { src: 'photo-beetle.jpg', srct: 'photo-beetle.jpg', title: 'Beetle', albumID: 2 },
+            { src: 'photo-crowd.jpg', srct: 'photo-crowd.jpg', title: 'Crowded', albumID: 2 },
+            { src: 'photo-dog.jpg', srct: 'photo-dog.jpg', title: 'Thor', albumID: 2 },
+            { src: 'photo-beach1.jpg', srct: 'photo-beach1.jpg', title: 'Portland, OR', albumID: 2 },
+            { src: 'photo-hotdog.jpg', srct: 'photo-hotdog.jpg', title: "Hotdoggin'", albumID: 2 },
+            { src: 'buffalopark.jpg', srct: 'buffalopark.jpg', title: 'Buffalo Park, Flagstaff AZ', albumID: 2 },
+            { src: 'photo-kris.jpg', srct: 'photo-kris.jpg', title: 'Kris', albumID: 2 },
+            { src: 'photo-metal-mural.jpg', srct: 'photo-metal-mural.jpg', title: 'R Bar, Tucson AZ', albumID: 2 },
+            { src: 'photo-stonehenge.jpg', srct: 'photo-stonehenge.jpg', title: 'Stoned', albumID: 2 },
+            { src: 'photo-tractor.jpg', srct: 'photo-tractor.jpg', title: "D'Tractor", albumID: 2 }
           ]
       });
 
