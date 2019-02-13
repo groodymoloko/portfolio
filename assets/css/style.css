@@ -125,6 +125,9 @@ img {
 #webdevImage6 {
   background-image: url("../images/bamazon.jpg");
 }
+#webdevImage7 {
+  background-image: url("../images/minion.jpg");
+}
 
 @font-face {
     font-family: odachi;
