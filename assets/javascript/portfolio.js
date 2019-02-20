@@ -57,9 +57,9 @@ $(document).ready(function(){
         // <!-- ### gallery content ### -->
         items: [
             { src: 'art_skull.jpg', srct: 'art_skull.jpg', title: 'Art', ID: 1, kind: 'album' },
-            { src: 'art_ants1.jpg', srct: 'art_ants1.jpg', title: 'Intruder', albumID: 1 },
-            { src: 'art_bee1.jpg', srct: 'art_bee1.jpg', title: 'B', albumID: 1  },
-            { src: 'art_beatle1.jpg', srct: 'art_beatle1.jpg', title: 'Beatle It', albumID: 1  },
+            { src: 'art_ants.jpg', srct: 'art_ants.jpg', title: 'Intruder', albumID: 1 },
+            { src: 'art_bee.jpg', srct: 'art_bee.jpg', title: 'B', albumID: 1  },
+            { src: 'art_beatle.jpg', srct: 'art_beatle.jpg', title: 'Beatle It', albumID: 1  },
             { src: 'art_blob.jpg', srct: 'art_blob.jpg', title: 'Blob Storage', albumID: 1  },
             { src: 'art_butterfly.jpg', srct: 'art_butterfly.jpg', title: 'Butterfly', albumID: 1  },
             { src: 'art_cracked.jpg', srct: 'art_cracked.jpg', title: 'Cracked', albumID: 1  },
